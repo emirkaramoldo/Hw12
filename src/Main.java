@@ -43,5 +43,7 @@ public class Main {
         musicalInstruments3.set(8, musicalInstruments.get(4));
         musicalInstruments3.set(9, musicalInstruments2.get(4));
         System.out.println(musicalInstruments3);
+        musicalInstruments3.sort(new SortClass());
+        System.out.println(musicalInstruments3);
     }
 }
