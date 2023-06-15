@@ -13,8 +13,6 @@ public class Main {
             System.out.println("Введите значение");
             String name = input.next();
             i++;
-            System.out.println(name);
-            System.out.println(i);
             if(i <= 5){
                 musicalInstruments.add(name);
             }
@@ -49,5 +47,5 @@ public class Main {
 }
 
 //Данные для ввода, можно копировать и вставить всю строку
-//musicalInstruments (Гитара, Аккустика, Электрогитара, Басс, Укулеле)
-//musicalInstruments2 (Пианино, Рояль, Фортепиано, Орган, Клавесин)
+//musicalInstruments (Гитара Аккустика Электрогитара Басс Укулеле)
+//musicalInstruments2 (Пианино Рояль Фортепиано Орган Клавесин)
