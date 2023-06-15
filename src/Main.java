@@ -32,5 +32,16 @@ public class Main {
         musicalInstruments3.addAll(musicalInstruments);
         musicalInstruments3.addAll(musicalInstruments2);
         System.out.println(musicalInstruments3);
+        musicalInstruments3.set(0, musicalInstruments.get(0));
+        musicalInstruments3.set(1, musicalInstruments2.get(0));
+        musicalInstruments3.set(2, musicalInstruments.get(1));
+        musicalInstruments3.set(3, musicalInstruments2.get(1));
+        musicalInstruments3.set(4, musicalInstruments.get(2));
+        musicalInstruments3.set(5, musicalInstruments2.get(2));
+        musicalInstruments3.set(6, musicalInstruments.get(3));
+        musicalInstruments3.set(7, musicalInstruments2.get(3));
+        musicalInstruments3.set(8, musicalInstruments.get(4));
+        musicalInstruments3.set(9, musicalInstruments2.get(4));
+        System.out.println(musicalInstruments3);
     }
 }
