@@ -47,3 +47,7 @@ public class Main {
         System.out.println(musicalInstruments3);
     }
 }
+
+//Данные для ввода, можно копировать и вставить всю строку
+//musicalInstruments (Гитара, Аккустика, Электрогитара, Басс, Укулеле)
+//musicalInstruments2 (Пианино, Рояль, Фортепиано, Орган, Клавесин)
