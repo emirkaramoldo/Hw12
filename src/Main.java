@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
@@ -21,5 +22,15 @@ public class Main {
                 musicalInstruments2.add(name);
             }
         }
+        System.out.println(musicalInstruments);
+        System.out.println(musicalInstruments2);
+        Collections.sort(musicalInstruments);
+        Collections.sort(musicalInstruments2);
+        Collections.reverse(musicalInstruments2);
+        System.out.println(musicalInstruments);
+        System.out.println(musicalInstruments2);
+        musicalInstruments3.addAll(musicalInstruments);
+        musicalInstruments3.addAll(musicalInstruments2);
+        System.out.println(musicalInstruments3);
     }
 }
